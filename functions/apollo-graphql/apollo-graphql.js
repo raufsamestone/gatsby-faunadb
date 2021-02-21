@@ -86,7 +86,7 @@ const resolvers = {
       const results = await client.query(
         q.Create(q.Collection(COLLECTION_NAME), {
           data: {
-            isApproved: false,
+            isApproved: true, /** Everyone can write*/
             slug: args.slug,
             date: new Date().toString(),
             name: args.name,

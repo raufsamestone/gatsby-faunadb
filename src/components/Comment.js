@@ -166,7 +166,7 @@ const Comment = ({
 
 
 Comment.defaultProps = {
-  isApproved: true,   /** Everyone can write*/
+  isApproved: false,   
   isAdmin: false,
 };
 
