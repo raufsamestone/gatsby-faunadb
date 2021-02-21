@@ -143,7 +143,7 @@ const PostsLayout = ({
                   fontStyle: "italic",
                 }}
               >
-                Comments
+                Answers
               </Text>
               <Divider />
               <Comment {...comment} />

@@ -112,7 +112,7 @@ const PostsPage = () => {
                     tabIndex={-1}
                     sx={{ alignSelf: "flex-end" }}
                   >
-                    Read post
+                    Answers
                   </Button>
                 </Card>
               </Link>
