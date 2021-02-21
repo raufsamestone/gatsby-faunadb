@@ -28,7 +28,7 @@ module.exports = {
     }
   },
   deleteCommentById: async () => {
-    const commentId = "263413122555970050";
+    const commentId = "291163105729184263";
     const results = await client.query(
       q.Delete(q.Ref(q.Collection(COLLECTION_NAME), commentId))
     );
@@ -67,7 +67,7 @@ module.exports = {
   }));
 },
 approveCommentById: async () => {
-  const commentId = '263413122555970050'
+  const commentId = '291163279829500417'
   const results = await client.query(
     q.Update(q.Ref(q.Collection(COLLECTION_NAME), commentId), {
       data: {
