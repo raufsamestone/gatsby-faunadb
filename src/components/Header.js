@@ -50,10 +50,10 @@ const Header = () => {
                   }}
                 >
                   <NavLink as={GatsbyLink} to="/">
-                    <SvgIcon iconPath={COMMENT_ICON} />
+                  {COMMENT_ICON}
                   </NavLink>
-                  <NavLink as={GatsbyLink} to="/posts">
-                    Posts
+                  <NavLink as={GatsbyLink} to="/lists">
+                    Lists
                   </NavLink>
                 </Flex>
                 <Box>

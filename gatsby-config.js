@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    name: "Comments App",
-    description: "Roll your own comments with Gatsby and FaunaDB",
+    name: "Faanus.io",
+    description: "Ask your any question to your friends!",
     keywords: [
       "React",
       "Gatsby",
@@ -12,7 +12,7 @@ module.exports = {
       "Apollo",
       "GraphQL",
     ],
-    siteUrl: "https://fauna-gatsby-comments.netlify.com",
+    siteUrl: "https://tender-edison-bf1a91.netlify.app",
     siteImage: "images/comments-app-open-graph-image.jpg",
     profileImage: ``,
     lang: `en`,

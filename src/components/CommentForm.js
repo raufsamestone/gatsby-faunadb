@@ -29,10 +29,10 @@ const initialValues = {
 const schema = Yup.object().shape({
   name: Yup.string()
     .min(3, "Name must be at least 3 characters")
-    .required("Please enter your name"),
+    .required("Please write your name"),
   comment: Yup.string()
     .min(10, "Comment must be at least 10 characters")
-    .required("Please enter a comment"),
+    .required("Please write your question"),
 });
 
 const CREATE_COMMENT = gql`
@@ -58,7 +58,7 @@ const CommentForm = ({ slug }) => {
           fontStyle: "italic",
         }}
       >
-        Leave a comment
+       Write your question!
       </Text>
 
       <Formik
@@ -130,11 +130,11 @@ const CommentForm = ({ slug }) => {
                       mb: 4,
                     }}
                   >
-                    <Label labelFor={COMMENT_FIELD}>You comment</Label>
+                    <Label labelFor={COMMENT_FIELD}>Your Question</Label>
                     <Textarea
                       {...field}
                       name={COMMENT_FIELD}
-                      placeholder="Enter your comment"
+                      placeholder="Write your question!"
                       value={values.comment}
                       onChange={handleChange}
                       sx={{
@@ -200,7 +200,7 @@ const CommentForm = ({ slug }) => {
                       <Spinner variant="styles.spinner" sx={{ ml: 3 }} />
                     </Fragment>
                   ) : (
-                    "Submit"
+                    "Send"
                   )}
                 </Button>
               </Flex>

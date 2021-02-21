@@ -55,9 +55,9 @@ const PostsPage = () => {
         // path=""
       />
       <Heading as="h1" variant="styles.h1">
-        Posts{" "}
+        Lists{" "}
         <span role="img" aria-label="posts">
-          ✍️
+          📋
         </span>
       </Heading>
       <Divider />

@@ -74,7 +74,7 @@ const PostsLayout = ({
         lang={lang}
         path={slug}
       />
-      <Flex
+      {/* <Flex
         sx={{
           flexDirection: "column",
         }}
@@ -89,8 +89,8 @@ const PostsLayout = ({
       <MDXProvider>
         <MDXRenderer>{body}</MDXRenderer>
       </MDXProvider>
-      <Divider />
-      <Flex
+      <Divider /> */}
+      {/* <Flex
         sx={{
           justifyContent: "space-between",
           mx: (theme) => `-${theme.space[2]}px`,
@@ -126,7 +126,7 @@ const PostsLayout = ({
             </Box>
           )}
         </Box>
-      </Flex>
+      </Flex> */}
       <Divider />
       {loading && <Spinner />}
       {error && <Text>{`${error}`}</Text>}
