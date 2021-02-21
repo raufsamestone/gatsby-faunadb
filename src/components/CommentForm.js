@@ -174,7 +174,7 @@ const CommentForm = ({ slug }) => {
                       variant="styles.small"
                       sx={{ color: "success" }}
                     >
-                      Comment sent ok!
+                      Answer sent!
                     </Text>
                   )}
                   {isFormError && (

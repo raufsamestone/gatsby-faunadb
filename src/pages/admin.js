@@ -12,7 +12,7 @@ const GET_ALL_COMMENTS = gql`
   query {
     getAllComments {
       commentId
-      isApproved
+      com
       slug
       date
       name
